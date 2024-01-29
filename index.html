@@ -13,9 +13,11 @@
 </head>
 
 <body>
-  <ul class="skip-nav">
-    <li><a href="#nav" aria-label="Skip to main content"></a>Skip to main content</li>
+  <div>
+  <ul id="skip-nav">
+    <li><a href=".main-content" aria-label="Skip to main content"></a>Skip to main content</li>
   </ul>
+  </div>
   <div class="container">
     
     <div class="site-header">
@@ -53,16 +55,16 @@
       <div class="contact-section">
         <h1>Contact Us</h1>
         <form action="thanks.html">
-          <label for="fullname">Full name</label><br>
-          <input type="text" placeholder="Full Name">
+          <label for="fullname">Full name</label>
+          <input type="text" id="fullname" placeholder="Full Name">
           <label for="email">Email</label><br>
-          <input type="email" placeholder="Email">
+          <input type="email" id="email" placeholder="Email">
           <label for="Subject">Subject</label><br>
-          <input type="text" placeholder="Subject">
+          <input type="text" id="Subject" placeholder="Subject">
           <b>Your Message</b>
-          <label for="Message"></label>
-          <textarea></textarea>
-          <button type="submit">Send</button>
+          
+          <textarea aria-label="message" id="textarea " placeholder="Message"></textarea>
+          <button type="submit" aria-label="submit" id="button">Send</button>
         </form>
       </div>
     </div>
