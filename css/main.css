@@ -61,7 +61,7 @@ form textarea {
 }
 
 form button {
-  background: none;
+  background: white;
   border: 2px solid black;
   padding: 1rem;
   text-transform: uppercase;
@@ -71,7 +71,7 @@ form button {
   padding: 2rem 0;
 }
 
-#skip-nav a{ 
+#skip-nav li{ 
 text-decoration: none;
 font-weight: bold;
 padding: 15px 5px;
