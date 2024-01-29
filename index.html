@@ -13,7 +13,11 @@
 </head>
 
 <body>
+  <ul class="skip-nav">
+    <li><a href="#nav" aria-label="Skip to main content"></a>Skip to main content</li>
+  </ul>
   <div class="container">
+    
     <div class="site-header">
       <h1 role="banner">Jam Box Studios</h1>
       <div class="main-nav">
@@ -49,11 +53,14 @@
       <div class="contact-section">
         <h1>Contact Us</h1>
         <form action="thanks.html">
-          <label>Full Name</label>
+          <label for="fullname">Full name</label><br>
           <input type="text" placeholder="Full Name">
-          <input type="text" placeholder="Email">
+          <label for="email">Email</label><br>
+          <input type="email" placeholder="Email">
+          <label for="Subject">Subject</label><br>
           <input type="text" placeholder="Subject">
           <b>Your Message</b>
+          <label for="Message"></label>
           <textarea></textarea>
           <button type="submit">Send</button>
         </form>
