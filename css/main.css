@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: gainsboro;
   margin: 0;
   padding: 0;
 }
@@ -41,6 +41,7 @@ img {
 .main-nav ul li {
   flex: 1;
   text-align: center;
+  margin:auto; 
 }
 
 .main-nav ul li a {
